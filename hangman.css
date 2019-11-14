@@ -272,9 +272,19 @@ input[type="button"]:active {
 		max-width: 300px;
 		max-height: 300px;
 		margin-right: auto;
+		padding-top: 10px;
 	}
 	#textBar {
 		flex:1;
+	}
+	header h1 {
+		margin-left: 50px;
+		font-size: 45px;
+	}
+	header h5 {
+		font-size: 15px;
+		padding-left: 50px;
+		line-height: 2.4rem;
 	}
  } /*media close */
 
@@ -288,4 +298,19 @@ input[type="button"]:active {
 	#shipPicture {
 		margin-left: 15%;
 	}
+ } /*media close */
+ 
+  @media (min-width:1321px) {
+	#shipPicture {
+		margin-left: 18%;
+	}
+		header h1 {
+		margin-left: 40px;
+		font-size: 45px;
+	}
+	header h5 {
+		font-size: 15px;
+		padding-left: 40px;
+		line-height: 2.4rem;
+	}s
  } /*media close */
